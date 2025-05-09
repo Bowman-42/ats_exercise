@@ -10,6 +10,8 @@ class ApplicationsController < ApplicationController
           "applications.notes", 
           "applications.last_interview"
         )
+      # this was necessary as the result of the query included an unexpected id: nil column, I assume that this is some sqlite behaviour
+      # I have not experienced that before with this type of queries
       result = applications.map do |s|
           {
             title: s.title,
