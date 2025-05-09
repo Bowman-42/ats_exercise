@@ -10,7 +10,7 @@ I used sqlite to keep the initial setup easy.
 
 ## What's missing
 * I didn't create any controllers to trigger events,
-* There's no real error handling, the json allows to return errors to the user (see https://github.com/Bowman-42/ats_exercise/blob/84ae0e49e999294d031d49564441f664a9ee92dd/app/controllers/applications_controller.rb#L25)
+* There's no real error handling, the json allows to return errors to the user, see https://github.com/Bowman-42/ats_exercise/blob/84ae0e49e999294d031d49564441f664a9ee92dd/app/controllers/applications_controller.rb#L25
 * I did not consider race condition handling
 
 ## Comments
