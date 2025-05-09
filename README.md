@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Coding Exercise
 
-Things you may want to cover:
+## Testing:
+* after setup of the db, events can be triggered in the rails console like `Job::Event::Activated(payload: {job_id: 123})`
+* urls for jobs and applications are jobs/list and applications/list
 
-* Ruby version
+## What's missing
+* I didn't create any controllers to trigger events,
+* There's no real error handling, the json allows to return errors to the user (see ..
+* I did not consider race condition handling
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Comments
+I enjoyed the exercise, I had not implemented Event Sourcing before, so had to spend some time to read.
+I left comments a few places.
+  
