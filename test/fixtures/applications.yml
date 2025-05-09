@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the "{}" from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+application_one: 
+  job: good_job
+  candidate_name: "Bob Bobson"
+
+application_two: 
+  job: good_job
+  candidate_name: "Hugo Hugoson"
+  status: "interview"
+  last_interview: "2025-05-09"
+
+application_three: 
+  job: good_job
+  candidate_name: "Peter Peterson"
+  status: "rejected"
+
+application_four: 
+  job: good_job
+  candidate_name: "Herman Pörxen"
+  status: "hired"
+
+deactivated_application: 
+  job: deactivated_job
+  candidate_name: "Bob Bobson"
