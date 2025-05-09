@@ -2,6 +2,8 @@
 
 ## Coding Exercise
 
+I used sqlite to keep the initial setup easy. 
+
 ## Testing:
 * after setup of the db, events can be triggered in the rails console like `Job::Event::Activated(payload: {job_id: 123})`
 * urls for jobs and applications are jobs/list and applications/list
@@ -14,4 +16,5 @@
 ## Comments
 I enjoyed the exercise, I had not implemented Event Sourcing before, so had to spend some time to read.
 I left comments a few places.
+I considered using https://github.com/RailsEventStore/rails_event_store, didn't because that looked like overkill for this exercise and implementing it myself resulted in more learning
   
